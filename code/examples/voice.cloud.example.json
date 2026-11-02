@@ -1,0 +1,6 @@
+{
+  "voice_id": "YOUR_CHOSEN_OR_AUTHORIZED_VOICE_ID",
+  "cloud_model": "eleven_multilingual_v2",
+  "language": "English",
+  "pronunciations": {}
+}

@@ -1,0 +1,10 @@
+{
+  "model": "../models/Qwen3-TTS-12Hz-0.6B-Base",
+  "asr_model": "../models/faster-whisper-small",
+  "reference_audio": "../private/reference.wav",
+  "reference_text": "The exact words actually spoken in the selected reference clip.",
+  "language": "English",
+  "asr_language": "en",
+  "vocabulary": "Technical terms for this specific presentation.",
+  "pronunciations": {}
+}

@@ -1,0 +1,20 @@
+{
+  "title": "A Small Research Presentation — Synthetic Example",
+  "slides": [
+    {
+      "title": "A Small Research Presentation",
+      "bullets": ["A synthetic example for trying PresentFlow", "Replace this material with evidence from your own paper"],
+      "notes": "Hello everyone. This is a small example of a research presentation. The content is synthetic and demonstrates the workflow."
+    },
+    {
+      "title": "An Editable Example Table",
+      "table": {"columns": ["Example", "Value"], "rows": [["A", "1"], ["B", "2"]]},
+      "notes": "This slide contains an editable table. These values are only examples and do not report experimental results."
+    },
+    {
+      "title": "Next Steps",
+      "bullets": ["Inspect the source material", "Write a clear script", "Choose narration only if needed"],
+      "notes": "The next step is to replace the example with your own source material. Thank you for listening."
+    }
+  ]
+}

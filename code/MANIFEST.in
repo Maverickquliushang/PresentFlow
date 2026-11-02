@@ -1,0 +1,7 @@
+prune .cache
+prune .tmp
+prune runs
+prune build
+prune dist
+exclude .python-environment.json
+global-exclude *.local.json *.pyc

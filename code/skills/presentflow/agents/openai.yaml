@@ -1,0 +1,4 @@
+interface:
+  display_name: "PresentFlow 学术汇报助手"
+  short_description: "从论文、模板或现有 PPT 制作汇报、逐页稿及可选的本地或在线配音"
+  default_prompt: "使用 $presentflow，根据我提供的材料制作汇报；先判断缺少的信息，再按我的电脑情况和意愿推荐配音方案。"

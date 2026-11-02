@@ -1,0 +1,19 @@
+code/.python-environment.json
+**/*.local.json
+**/.env
+**/.env.*
+!**/.env.example
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+code/.tmp/
+code/.cache/
+code/.pytest_cache/
+code/build/
+code/dist/
+runs/
+code/runs/
+output/
+versions/**/*.zip
+# User papers, decks, recordings and generated voices belong in private runs/.
+# Do not ignore all PDFs/images globally: intentional licensed examples may be source assets.

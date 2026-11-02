@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "presentflow"
+version = "0.1.0"
+description = "Agent-guided research presentations, speaker scripts, and optional narrated PowerPoint."
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["pypdf>=5,<7", "Pillow>=11,<13"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "build>=1,<2", "PyYAML>=6,<7"]
+local-voice = ["qwen-tts==0.1.1", "faster-whisper==1.2.1", "soundfile>=0.13,<0.15", "scipy>=1.14,<2"]
+
+[project.scripts]
+presentflow = "presentflow.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+presentflow = ["engine/*.ps1", "native/*.ps1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
